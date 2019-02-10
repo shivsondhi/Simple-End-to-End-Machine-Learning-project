@@ -40,4 +40,5 @@ The main algorithm here, conducts basic statistical analyses on the iris dataset
 - operator (used for dictionary manipulations)
 - pickle
  
-I will keep updating parts of the project as and when applicable. Probable addition includes data preprocessing which is an important step in most Machine Learning algorithms! 
+Most of this is learnt from various websites online, but a special mention must go to [MachineLearningMastery](https://machinelearningmastery.com/).
+I will keep updating parts of the project as and when I get back to this. A probable addition includes data preprocessing which is an important step in most Machine Learning algorithms! 
