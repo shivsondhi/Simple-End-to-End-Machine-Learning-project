@@ -1,7 +1,7 @@
 '''
 Here, I use four common data scaling techniques, provided in the sci-kit learn module for preprocessing data. These are:
 	MinMaxScaler	- Scales every data sample within a specified range.
-	StandardScaler	- Scales every sample in such a way to ensure that the mean=0 and std=1. This is done by subtracting the mean from each sample and dividing the result by std.
+	StandardScaler	- Scales every sample in such a way to ensure that the mean=0 and std=1. This is done by subtracting the mean from each sample and dividing the result by std (z-score).
 	Normalizer		- L1 norm finds the absolute difference between each sample and the mean. L2 norm finds the square of the same difference.
 	Binarizer		- Each data sample is either represented as 0 or 1 depending on a specified threshold value thata lies between 0 and 1.
 Each data sample is thus transformed differently in each of the four cases and the dataset is scaled accordingly.
