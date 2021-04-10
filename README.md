@@ -1,7 +1,7 @@
 # Simple End-to-End Machine Learning project
 
 
-This is a very basic project that helped me build and strengthen my understanding of various ML concepts. 
+A simple project that helped me cover basic Machine Learning concepts. 
 
 ### The project uses the following **models**:
 
@@ -19,16 +19,16 @@ This is a very basic project that helped me build and strengthen my understandin
 
 ### **The steps followed in this project are**:
  
- - Basic Analysis and Visualisation of data
- - Spot checking models
- - Model Evaluation
- - Save and Load a model
- - Make predictions and evaluate them
- - Data Scaling (Extra Step / Preprocessing)
+ - Data scaling (preprocessing)
+ - Data analysis and visualisation
+ - Spot check the models
+ - Evaluate the models
+ - Save and load models
+ - Make and evaluate predictions
  
 ### Datasets 
 
-The main dataset I have used is the Iris dataset which is available in the sci-kit learn library. This is a classification dataset. The main file is 'final_iris.py'. In addition to this all of the other files can also be executed separately to depict the working of every step in the process. In many of the supporting files I have used other datasets (also available in the sci-kit learn library). Amongst these are both regression as well as classification datasets. The regression dataset I have used is the boston_housing dataset. The classification datasets I have used are the breast_cancer and wine datasets. The mode of the algorithms can be toggled from Classification to Regression by changing the 'task' variable in the corresponding file to 'c' or 'r' respectively. The iris dataset can be replaced by any other in the final_iris file; but be careful to not replace it with a dataset having too many attributes (like the breast cancer dataset), as the various plots may take unusually long to render.
+The Iris dataset is available in the sci-kit learn library - this is a classification dataset. The main file is 'final_iris.py'. In addition to this all of the other files can also be executed separately to depict the working of every step in the process. In many of the supporting files I have used other datasets (also available in the sci-kit learn library). Amongst these are both regression as well as classification datasets. The regression dataset I have used is the boston_housing dataset. The classification datasets I have used are the breast_cancer and wine datasets. The mode of the algorithms can be toggled from Classification to Regression by changing the 'task' variable in the corresponding file to 'c' or 'r' respectively. The iris dataset can be replaced by any other in the final_iris file; but be careful to not replace it with a dataset having too many attributes (like the breast cancer dataset), as the various plots may take unusually long to render.
  
 ### Execution
 
