@@ -35,13 +35,3 @@ The Iris dataset is available in the sci-kit learn library - this is a classific
 The main algorithm here, conducts basic statistical analyses on the iris dataset and performs the spot-check with the applicable models listed above. The top three models are then selected for further evaluation and the algorithm with the best mean results (and lower standard deviation of results in case of a tie) is selected to make predictions on the dataset. The model is fit onto the dataset and saved to file before being loaded and evaluated again. 
 
 The sklearn_preprocessing file does not feature in the final_iris execution program. However, it functions as a standalone file and can demonstrate data scaling methods, which must be used to transform the input to various machine learning algorithms! Additionally, the Algorithm Comparison boxplot seems to be incorrect while evaluating models on the iris dataset. This problem somehow disappears when using almost any other sci-kit learn dataset.
-
-### The list of all **modules** used in the project is as follows:
-- pandas
-- sklearn
-- matplotlib
-- operator (used for dictionary manipulations)
-- pickle
- 
-Most of this is learnt from various websites online, but a special mention must go to [MachineLearningMastery](https://machinelearningmastery.com/).
-I will keep updating parts of the project as and when I get back to this.
