@@ -1,23 +1,29 @@
 # Simple End-to-End Machine Learning project
 
 
-A simple project that helped me cover basic Machine Learning concepts. 
+A simple project that uses machine learning tools on one classification (discrete predictions into classes) and one regression (continuous value predictions) task. 
 
-### The project uses the following **models**:
+### Models used:
 
- - Logistic Regression
- - Linear Discriminant Analysis
- - Naive Bayes 
- - Linear Regression
- - Ridge Regression
+For classification I use: 
+- Logistic regression 
+- Linear discriminant analysis
+- K Neighbours classifier
+- Gaussian Naive Bayes' classifier
+- Decision tree classifier
+- Support vector classifier
+
+Fo the regression task I use:
+ - Linear regression
+ - Ridge regression
  - Least Absolute Shrinkage and Selection Operator (LASSO)
- - ElasticNet Regression
- - Decision Tree 
- - K Nearest Neighbors 
- - Support Vector Machines 
+ - ElasticNet regression
+ - K neighbors regressor
+ - Decision tree regressor 
+ - Support vector regressor 
  
 
-### **The steps followed in this project are**:
+### **The steps followed in the project are**:
  
  - Data scaling (preprocessing)
  - Data analysis and visualisation
@@ -25,6 +31,7 @@ A simple project that helped me cover basic Machine Learning concepts.
  - Evaluate the models
  - Save and load models
  - Make and evaluate predictions
+ 
 
 ### Execution
 
